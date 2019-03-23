@@ -1,0 +1,35 @@
+.overall-accuracy-text {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: rgba(0, 51, 65, 0.24);
+  border: 1px solid #003341;
+  border-radius: 2px;
+
+  align-content: center;
+  justify-content: center;
+}
+.actual-label-icon {
+  color: #ffffff;
+}
+.actual-label-text {
+  color: #87aab4;
+}
+.prediction-label-icon {
+  color: #7ed321;
+}
+.prediction-label-icon-red {
+  color: #EA053B;
+}
+.prediction-label-icon-green {
+  color: #B5EB45;
+}
+.prediction-label-text {
+  color: #87aab4;
+}
+text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 10px;
+  letter-spacing: -0.07px;
+  line-height: 11px;
+}

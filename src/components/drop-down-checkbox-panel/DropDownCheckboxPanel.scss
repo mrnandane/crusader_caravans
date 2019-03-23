@@ -1,0 +1,86 @@
+@import '../../common';
+
+.dropdown-menu {
+    background-color: white;
+    border: 1px solid $colorGrayBorder;
+    border-top: none;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+    border-top: 10px solid $colorPlaceholderText;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+    border-bottom: 10px solid $colorPlaceholderText;
+}
+.dropdown .dropdown-header-panel {
+    min-height: 56px;
+    position: relative;
+    background-color: $colorBackground;
+    border: 1px solid $colorGrayBorder;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    color: $colorPlaceholderText;
+}
+.dropdown .dropdown-header-panel-closed {
+    border-radius: 4px;
+    border-bottom: 1px solid $colorGrayBorder;
+}
+.dropdown {
+    margin-bottom: 1.5rem;
+    .place-holder-label {
+        position: absolute;
+        top: 0;
+        padding: 15px;
+        transition: all 200ms;
+    }
+    .place-holder-label-above {
+        font-size: 12px;
+        margin: -8px 0px 0;
+        color: $colorPlaceholderTextOnFocus;
+        background-color: $colorBackground;
+        transform: translate3d(0, -10%, 0);
+        opacity: 1;
+    }
+}
+.dropdown-header-row {
+    font-size: 14px;
+    background-color: #02252F;
+}
+.dropdown-content {
+    background-color: $colorBackground;
+    max-height: 260px;
+    overflow-y: auto;
+}
+.clear-all-btn {
+    color: $colorPlaceholderTextOnFocus;
+}
+
+.hide-checkbox-label-list {
+    display: none;
+}
+
+.dropdown-content-indicator {
+    background-color: #02252F;
+    max-height: 260px;
+    overflow-y: auto;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.18);
+}
+
+.dropdown-divider {
+    margin: 0;
+    height: 2px;
+    overflow: hidden;
+    border: 1px solid #012E3B;
+    box-sizing: border-box;
+}
+
+.dropdown-box-shadow {
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.18);
+}

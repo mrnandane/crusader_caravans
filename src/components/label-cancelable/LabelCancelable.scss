@@ -1,0 +1,23 @@
+$colorOrange : #D96A3B;
+$colorGray: #3E5C65;
+$colorWhite: #ffffff;
+
+
+.label-wrapper { 
+  box-sizing: border-box;	
+  height: 30px;
+  min-width: 50px;
+  border: 0.5px solid #004457;	
+  border-radius: 4px;
+  color: $colorWhite;
+  background-color: #004457;
+}
+
+.label-wrapper {
+  .close {
+    color: $colorWhite;
+    text-shadow: none;
+    opacity: 1;
+    margin-top: 2px;
+  }
+}

@@ -1,0 +1,57 @@
+@import '../../common.scss';
+
+.form-group {
+    height: 56px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    background-color: $colorBackground;
+    border-radius: 4px;
+  }
+  
+  .form-control {
+      height: 100%;
+      background-color: $colorBackground !important;
+      color: $colorPlaceholderText;
+      font-size: 16px;
+      padding-top: 25px;
+      border: 1px solid $colorGrayBorder;
+  }
+
+  .form-control:focus {
+      background-color: $colorBackground !important;
+      color: $colorPlaceholderText;
+      padding-top: 25px; 
+  }
+
+  .form-control-placeholder {
+    background-color: transparent; 
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    transition: all 200ms;
+    color: $colorPlaceholderText;
+  }
+  
+  .form-control-input-note {
+      color: $colorPlaceholderTextOnFocus;
+      font-size: 12px;
+      padding-left: 15px;
+  }
+
+  .form-control:focus + .form-control-placeholder,
+  .form-control + .placeholder-valid {
+    font-size: 12px;
+    padding: 0 0 0 14px;
+    margin: 10px 1px;
+    color: $colorPlaceholderTextOnFocus;
+    background-color: transparent !important;
+    transform: translate3d(0, -10%, 0);
+    opacity: 1;
+  }
+  
+  .error-border{
+    border: 1px solid #FF404A !important; 
+  }
+  .error-text {
+      color: #FF404A !important;
+  }

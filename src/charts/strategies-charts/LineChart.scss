@@ -1,0 +1,95 @@
+@import '../../common.scss';
+
+.line {
+  fill: none;
+  stroke-width: 1px;
+}
+
+.zoom {
+  fill: none;
+  pointer-events: all;
+}
+.axis {
+  stroke: #ffffff;
+  color: #093b49;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.selection {
+  background-color: rgba(135, 170, 180, 0.15);
+  border-bottom: 2px solid #239d8c;
+}
+
+.selection {
+  stroke: #239d8c;
+  fill: rgba(135, 170, 180, 0.15);
+}
+.button {
+  background-color: #4caf50;
+}
+.circle .circle1 {
+  pointer-events: auto;
+}
+
+.tick line {
+  stroke-dasharray: 5 5;
+}
+
+.graph-button {
+  height: 18px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+.model-graph-button{
+  height: 18px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+.graph-button-active {
+  background-color: rgba(255,255,255,0.28) !important;
+}
+.model-graph-button-active {
+  background-color: rgba(255,255,255,0.28) !important;
+}
+
+.circle {
+  pointer-events: all !important;
+}
+// .tooltip {
+//   position: absolute;
+//   text-align: center;
+//   width: 60px;
+//   height: 28px;
+//   padding: 2px;
+//   font: 12px "Roboto";
+//   background: red;
+//   border: 0px;
+//   border-radius: 8px;
+//   pointer-events: none;
+// }
+.tooltipFocus {
+  height: 39.5px;
+  width: 120.5px;
+  border: 5px solid #ef6c2f;
+  opacity: 0.36;
+  background-color: yellow;
+  z-index: 9;
+}

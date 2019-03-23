@@ -1,0 +1,34 @@
+@import "./common.scss";
+
+$blueColor: #2196f3;
+
+.App {
+  text-align: center;
+  background-color: #003341;
+}
+
+.set-parameters-view-wrapper {
+  color: $colorPlaceholderText;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.18);
+  min-height: 300px;
+
+  .drop-down-wrapper {
+    height: initial !important;
+  }
+
+  .content-wrapper {
+    background-color: #022a35;
+  }
+}
+
+.set-parameters-view-header-row {
+  height: 53px;
+  border-radius: 4px 4px 0 0;
+  background-color: #022a35;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.18);
+  border-bottom: 2px solid #239d8c;
+}
+
+.active-header {
+  background-color: #239d8c;
+}

@@ -1,0 +1,59 @@
+@import '../../common.scss';
+
+.modal-content {
+  border: none;
+}
+
+.verify-modal-header {
+  background-color: #012e3b;
+  border-bottom: none;
+  color: $colorPlaceholderText;
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: -0.11px;
+  line-height: 19px;
+}
+
+.verify-modal-body {
+  background-color: #02252f;
+  border-bottom: 0.5px solid #87aab4;
+  // color: $colorPlaceholderText;
+  // font-family: "Roboto";
+}
+
+.verify-modal-footer {
+  background-color: #02252f;
+  border-top: none;
+}
+
+.verify-modal-close {
+  float: right;
+  margin-left: 850px;
+  color: #87aab4;
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  line-height: 16px;
+}
+
+.verify-modal-close:hover {
+  cursor: pointer;
+}
+
+svg {
+  // min-width: 750px;
+  pointer-events: all !important;
+}
+
+// div.tooltip {
+//   position: absolute;
+//   text-align: center;
+//   width: 60px;
+//   height: 28px;
+//   padding: 2px;
+//   font: 12px 'Roboto';
+//   background: lightsteelblue;
+//   border: 0px;
+//   border-radius: 8px;
+//   pointer-events: none;
+// }

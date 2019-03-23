@@ -1,0 +1,27 @@
+$colorOrange : #D96A3B;
+$colorGray: #3E5C65;
+$colorWhite: #ffffff;
+
+
+.selectable-label { 
+  box-sizing: border-box;	
+  height: 30.5px;
+  min-width: 50px;
+  border: 0.5px solid #87AAB4;	
+  border-radius: 20px;
+}
+
+.selectable-label.selected {
+  border: 0.5px solid #EF6C2F;
+  background-color: rgba(239,108,47,0.25);
+}
+
+.selectable-label .selectable-label-text {
+  color:  #87AAB4;
+}
+
+.selectable-label.selected{
+ .selectable-label-text {
+    color:  #EF6C2F;
+  }
+}

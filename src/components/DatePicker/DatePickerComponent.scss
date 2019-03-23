@@ -1,0 +1,60 @@
+@import '../../common';
+
+.date-picker-component {
+  .calendar-font {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .date-picker-menu {
+      color: white;
+      border-top: none;
+  }
+
+  .date-picker-option {
+      border-bottom: 1px solid $colorGrayBorder;
+  }
+
+ .date-picker .date-picker-header-panel {
+      min-height: 56px;
+      position: relative;
+      background-color: $colorBackground;
+      border: 1px solid $colorGrayBorder;
+      border-bottom: none;
+      border-radius: 4px 4px 0 0;
+      color: $colorPlaceholderText;
+  }
+
+  .date-picker .date-picker-header-panel-closed {
+      border-radius: 4px;
+      border-bottom: 1px solid $colorGrayBorder;
+  }
+
+   .date-picker {
+    margin-bottom: 1.5rem;
+    .place-holder-label {
+        position: absolute;
+        top: 0;
+        padding: 15px;
+        transition: all 200ms;
+    }
+    .place-holder-label-above {
+        font-size: 12px;
+        margin: -8px 0px 0;
+        color: $colorPlaceholderTextOnFocus;
+        background-color: $colorBackground;
+        transform: translate3d(0, -10%, 0);
+        opacity: 1;
+    }
+  }
+  .date-picker {
+    background-color: $colorBackground;
+    width: 250px;
+    max-height: 260px;
+    overflow-y: auto;
+  }
+  
+}
+
