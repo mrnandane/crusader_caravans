@@ -69,7 +69,7 @@ class App extends Component {
         <div className="h-100">
           <Navbar />
           <Switch>
-            <PrivateRoute path="/" component={HomePage} exact />
+            <Route path="/" component={HomePage} exact />
             <Route path="/login" component={LoginPage} />
             {/* <PrivateRoute path="/feature-list" component={FeatureListPage} />
             <PrivateRoute path="/backtest" component={BackTestPage} />
