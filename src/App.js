@@ -66,7 +66,7 @@ class App extends Component {
     // if (this.state.keycloak) {
     return (
       <Router>
-        <div className="h-100">
+        <div className="h-100 all-content-wrapper">
           <Navbar />
           <Switch>
             <Route path="/" component={HomePage} exact />
