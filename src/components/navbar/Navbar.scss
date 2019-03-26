@@ -4,9 +4,8 @@ $colorNavbar: #003341;
 $colorWhite: #ffffff;
 
 .navbar {
-  border-bottom: 1px solid $colorNavbar;
   color: $colorWhite;
-  background-color: #c7c8cb;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
   min-height: 86px;
 }
 

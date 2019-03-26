@@ -1,5 +1,5 @@
 {
-  "realm": "roboinvestor",
+  "realm": "Cruseder",
   "auth-server-url": "http://18.219.11.248:8080/auth",
   "ssl-required": "none",
   "resource": "robo-ui",
